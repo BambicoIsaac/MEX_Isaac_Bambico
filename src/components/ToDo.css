@@ -1,0 +1,17 @@
+#buttons {
+    display: flex;
+}
+
+.todo-buttons{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 3px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+    
+}

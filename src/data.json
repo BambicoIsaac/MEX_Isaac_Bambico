@@ -1,0 +1,28 @@
+[{
+    "id": 1,
+    "task": "This is a sample to do which is not a priority",
+    "priority": false,
+    "complete": false
+  },
+  
+  {
+    "id": 2,
+    "task": "This is a sample to do which is a priority",
+    "priority": true,
+    "complete": false
+  },
+
+  {
+    "id": 3,
+    "task": "This is a sample to do which is a priority and is complete",
+    "priority": true,
+    "complete": true
+  },
+
+  {
+    "id": 4,
+    "task": "This is a sample to do which is not a priority and is complete",
+    "priority": false,
+    "complete": true
+  }
+]

@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+}
+
+
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(211, 91, 211), pink, green); 
+
+
+}
+
+.wholeBody {
+  background-image: linear-gradient(rgb(211, 91, 211), pink, green); 
+
+}
+
+
+.welcome {
+  width: 100%;
+  max-width: 50%;
+  background-color: #FFF;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 15px 30px;
+  display: block;
+  position: relative; 
+  border-top: 10px solid #FFCE00;
+  border-bottom:10px solid #FE4800;
+  background-image: 
+      linear-gradient(#FFCE00, #FE4800),
+      linear-gradient(#FFCE00, #FE4800)
+  ;
+  background-size:10px 100%;
+
+  background-position:0 0, 100% 0;
+  background-repeat:no-repeat;
+
+}
+
+
+.welcome h2 {
+  text-align:center;
+  color: #888;
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.welcome h2 span {
+  color: #FE4880;
+  font-weight: 700;
+}
+
+.welcome h3 {
+  text-align:center;
+  color: #888;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+
+.welcome #logout-button{
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #FFCE00 50%, #FE4880);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.welcome #logout-button:hover{
+   background-position: 100% 0%;
+}
+
+.centered{
+  text-align:center;
+}
+
+.strike {
+  background-color: #888;
+}
+
+.priority {
+  align-items: center;
+  color:rgb(255, 118, 118);
+}
+
+.todo {
+  align-items: center;
+  color:rgb(94, 243, 88);
+}
